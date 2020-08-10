@@ -29,7 +29,7 @@
       href="vendor/simple-line-icons/css/simple-line-icons.css"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed">
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet" />
   </head>
@@ -63,14 +63,27 @@
     </nav>
 
     <!-- Header -->
-    <div>
-      sfdsfsdfs
+    <div class="logo">
+      <a href="index.html"
+               class="logok"><span></span><img src="img/logocp.png"  style="width: 150px;"/></span
+            ></a>
+      <style>
+        .logo {
+          background-color: rgb(255, 208, 0);
+          padding-top: 0.75rem;
+        }
+        .logok {
+     
+          margin-left: 15px;
+         top: 2rem;
+        }
+      </style>
     </div>
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1">Stylish Portfolio</h1>
+        <h2 class="mb-1">Colour makes all the difference</h2>
         <h3 class="mb-5">
-          <em>A Free Bootstrap Theme by Start Bootstrap</em>
+          <em>Lets paint with colourplus</em>
         </h3>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
           >Find Out More</a
@@ -85,11 +98,10 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2>
-              Stylish Portfolio is the perfect theme for your next project!
+              About Us
             </h2>
             <p class="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends at
+              Colour plus painters will provide top-quality interior and exterior residential and commercial painting services.We make use of higly durable meterials and methods for the works we commit.We will seek to provide its painting services in the most timely manner using advanced machineries and techniques.
               <a href="https://unsplash.com/">Unsplash</a>!
             </p>
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"
@@ -99,7 +111,196 @@
         </div>
       </div>
     </section>
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+  <div class="container">
 
+    <div class="row">
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+        <div
+          class="services-image"
+          style="
+            background-image: url(assets/img/paint.jpg);
+            background-size: cover;
+          "
+        ></div>
+        <h4 class="title" style="color: rgb(70, 70, 69);">Painting</h4>
+        <p class="description">
+          All kinds of interior and exterior wall putty,cement primers ,
+          emulsions ,water proof paints
+        </p>
+      </div>
+      <div
+        class="col-lg-4 col-md-6 icon-box"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div
+          class="services-image"
+          style="
+            background-image: url(assets/img/wp.jpg);
+            background-size: cover;
+          "
+        ></div>
+        <h4 class="title"><a href="">Wood Polishing</a></h4>
+        <p class="description">
+          All kinds of interior and exterior pu coatings , glossy and
+          matte finishes , pu paint finish
+        </p>
+      </div>
+      <div
+        class="col-lg-4 col-md-6 icon-box"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div
+          class="services-image"
+          style="
+            background-image: url(assets/img/texture.jpg);
+            background-size: cover;
+          "
+        ></div>
+        <h4 class="title"><a href="">Wall textures & Stencils</a></h4>
+        <p class="description">
+          Different types of wall designing and wall textures
+        </p>
+      </div>
+      <div
+        class="col-lg-4 col-md-6 icon-box"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div
+          class="services-image"
+          style="
+            background-image: url(assets/img/spr.jpg);
+            background-size: cover;
+          "
+        ></div>
+        <h4 class="title"><a href="">Tool Rentals</a></h4>
+        <p class="description">
+          All kind of painting tools for rent
+        </p>
+      </div>
+      <div
+        class="col-lg-4 col-md-6 icon-box"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <div
+          class="services-image"
+          style="
+            background-image: url(assets/img/paper.jpg);
+            background-size: cover;
+          "
+        ></div>
+        <h4 class="title"><a href="">Wall papers</a></h4>
+        <p class="description">
+          Decorative wall papers for your walls
+        </p>
+      </div>
+      <div
+        class="col-lg-4 col-md-6 icon-box"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        <div
+          class="services-image"
+          style="
+            background-image: url(assets/img/wtp.jpg);
+            background-size: cover;
+          "
+        ></div>
+        <h4 class="title"><a href="">Water prooffing</a></h4>
+        <p class="description">
+          water proof walls and roof for your terrace and new bathrooms
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+/*# Services
+--------------------------------------------------------------*/
+.services {
+  padding-bottom: 30px;
+}
+
+.services .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.services .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.services .icon i {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #428bca;
+  font-size: 40px;
+  overflow: hidden;
+  padding-top: 20px;
+ 
+}
+
+.services .icon-box:hover .icon i 
+{
+ 
+}
+
+.services .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.services .title a {
+  color: #444;
+  transition: 0.3s;
+}
+
+.services .title a:hover {
+  color: #428bca;
+}
+
+.services .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #ff3d3d;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.description {
+  line-height: 24px;
+  font-size: 14px;
+  color: rgba(255,255,255,.7);
+  font-family: lato;
+}
+.services-image {
+  height: 130px;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  width: 130px;
+  
+  border: 5px solid whitesmoke;
+}
+
+</style>
+<!-- End Services Section -->
     <!-- Services -->
     <section
       class="content-section bg-primary text-white text-center"
@@ -107,49 +308,93 @@
     >
       <div class="container">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h2 class="mb-5">What We Offer</h2>
+          <h3 class="text-secondary mb-0">What We offer</h3>
+          <h2 class="mb-5">Our Services</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p class="text-faded mb-0">
-              Millions of users
-              <i class="fas fa-heart"></i>
-              Start Bootstrap!
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div
+              class="services-image"
+              style="
+                background-image: url(assets/img/paint.jpg);
+                background-size: cover;
+              "
+            ></div>
+            <h4 class="title" >Painting</h4>
+            <p class="description">
+              All kinds of interior and exterior wall putty,cement primers ,
+              emulsions ,water proof paints
             </p>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div
+              class="services-image"
+              style="
+                background-image: url(assets/img/paint.jpg);
+                background-size: cover;
+              "
+            ></div>
+            <h4 class="title">Painting</h4>
+            <p class="description">
+              All kinds of interior and exterior wall putty,cement primers ,
+              emulsions ,water proof paints
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div
+              class="services-image"
+              style="
+                background-image: url(assets/img/paint.jpg);
+                background-size: cover;
+              "
+            ></div>
+            <h4 class="title">Painting</h4>
+            <p class="description">
+              All kinds of interior and exterior wall putty,cement primers ,
+              emulsions ,water proof paints
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div
+              class="services-image"
+              style="
+                background-image: url(assets/img/paint.jpg);
+                background-size: cover;
+              "
+            ></div>
+            <h4 class="title">Painting</h4>
+            <p class="description">
+              All kinds of interior and exterior wall putty,cement primers ,
+              emulsions ,water proof paints
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div
+              class="services-image"
+              style="
+                background-image: url(assets/img/paint.jpg);
+                background-size: cover;
+              "
+            ></div>
+            <h4 class="title" >Painting</h4>
+            <p class="description">
+              All kinds of interior and exterior wall putty,cement primers ,
+              emulsions ,water proof paints
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div
+              class="services-image"
+              style="
+                background-image: url(assets/img/paint.jpg);
+                background-size: cover;
+              "
+            ></div>
+            <h4 class="title" >Painting</h4>
+            <p class="description" style="color: rgba(255,255,255,.7);">
+              All kinds of interior and exterior wall putty,cement primers ,
+              emulsions ,water proof paints
+            </p>
           </div>
         </div>
       </div>
@@ -189,7 +434,7 @@
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="" />
+              <img class="img-fluid" src="img/house0.jpg" alt="" />
             </a>
           </div>
           <div class="col-lg-6">
@@ -203,7 +448,7 @@
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="" />
+              <img class="img-fluid" src="img/house2.jpg" alt="" />
             </a>
           </div>
           <div class="col-lg-6">
@@ -217,7 +462,7 @@
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="" />
+              <img class="img-fluid" src="img/house3.jpg" alt="" />
             </a>
           </div>
           <div class="col-lg-6">
@@ -231,13 +476,18 @@
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="" />
+              <img class="img-fluid" src="img/house5.jpg" alt="" />
             </a>
           </div>
         </div>
       </div>
     </section>
-
+    <div style="display: flex;
+    justify-content: center; margin-bottom: 70px;"> 
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="over view.html"
+          >Find Out More</a
+        >
+    </div>
     <!-- Call to Action -->
     <section class="content-section bg-primary text-white">
       <div class="container text-center">
@@ -246,19 +496,359 @@
         <a href="#!" class="btn btn-xl btn-dark">Look at Me!</a>
       </div>
     </section>
-
-    <!-- Map -->
-    <div id="contact" class="map">
-      <iframe
-        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
-      ></iframe>
-      <br />
-      <small>
-        <a
-          href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"
-        ></a>
-      </small>
+<!-- ======= Our Tool Section ======= -->
+<section id="team" class="team">
+  <div class="container">
+    <div class="section-title" style="margin-top: 20px;"> 
+      <h2>Tool Rentals</h2>
+      <p>
+        Tools for Rentals
+      </p>
     </div>
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/putty sprayer.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Putty sprayer</h4>
+            <span>Electric Putty spraying machine</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-md-6"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/paint sprayer.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Paint sprayer</h4>
+            <span>Electric</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-md-6"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/Air compressor.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Air compressor</h4>
+            <span>Air compressor paint sprayer</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-md-6"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/cleaner.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Pressure cleaner</h4>
+            <span>High pressure cleaner pump</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="team" class="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/putty sander.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>putty sander</h4>
+            <span>Electric wall putty sander</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-md-6"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/sander.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Sander</h4>
+            <span>Electric Sander</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-md-6"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/vaccum cleaner.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Vaccum cleaner</h4>
+            <span>Heavy duty vaccum cleaner</span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-md-6"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="member">
+          <div class="pic">
+            <img
+              src="img/scuffolding.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="member-info">
+            <h4>Scuffolding</h4>
+            <span></span>
+            <div class="social"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+
+/*--------------------------------------------------------------
+# Our Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+  padding: 0px 0 30px 0;
+}
+
+.team .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.team .member .pic {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.team .member img {
+  transition: all ease-in-out 0.4s;
+}
+
+.team .member:hover img {
+  transform: scale(1.1);
+}
+
+.team .member .member-info {
+  position: absolute;
+  bottom: -48px;
+  left: 20px;
+  right: 20px;
+  background: linear-gradient(
+    360deg,
+    #5c768d 0%,
+    rgba(92, 118, 141, 0.9) 35%,
+    rgba(140, 167, 191, 0.8) 100%
+  );
+  opacity: 85%;
+  padding: 15px 0;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #fff;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+.team .member .social {
+  margin-top: 15px;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+}
+
+.team .member .social a:hover {
+  color: #9eccf4;
+}
+
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+  .team .member {
+    margin-bottom: 100px;
+  }
+}
+
+
+</style>
+<!-- End Our Team Section -->
+    <!-- ======= Contact Us Section ======= -->
+    <h1 class="section-header"
+    style="   text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font: 300 60px 'Oswald', sans-serif;
+    letter-spacing: 6px;
+    color: rgb(2, 2, 2);
+    margin-bottom: 25px;
+    font-family: Roboto Condensed ;
+  "
+    
+    >CONTACT US</h1>
+    <div class="direct-contact-container">
+    <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Seattle | WA</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">emailme@gmail.com</a></span></i></li>
+          
+        </ul>
+      </div>
+        <style>
+        /* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: rgb(2, 2, 2);
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: rgb(29, 29, 29);
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.direct-contact-container {
+   
+    margin-top: 60px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+     margin-bottom: 70px;
+  } 
+</style>
+
+    <!-- End Contact Us Section -->
 
     <!-- Footer -->
     <footer class="footer text-center">
