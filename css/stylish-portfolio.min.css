@@ -97,10 +97,10 @@ h6 {
       rgba(255, 255, 255, 0.1) 0,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url(../img/bgi.jpg);
+    url(../img/bg-masthead6.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: unset;
+  background-size: cover;
 }
 
 .masthead h1 {
@@ -350,9 +350,9 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #1d809f !important;
-  border-color: #1d809f !important;
-  color: #fff !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: rgb(39, 39, 39) !important;
 }
 
 .btn-primary:active,
