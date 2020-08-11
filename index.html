@@ -77,8 +77,9 @@
             ></a>
       <style>
         .logo {
-          background-color: rgb(255, 208, 0);
+          background-color: rgb(255, 255, 255);
           padding-top: 0.75rem;
+        
         }
         .logok {
      
@@ -88,18 +89,98 @@
       </style>
     </div>
     
-    <header class="masthead d-flex" >
-      <div class="container text-center my-auto">
-        <h2 class="mb-1">Colour makes all the difference</h2>
-        <h3 class="mb-5">
-          <em>Lets paint with colourplus</em>
-        </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
-          >Find Out More</a
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" style="margin-top: 2rem;">
+      <div class="hero-container">
+        <div
+          id="heroCarousel"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
         >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active"
+              style="
+                background-image: url('img/bg-masthead.jpg');background-repeat: unset;
+              "
+            >
+              <div class="carousel-container">
+                <div class="carousel-content container">
+                  <h2 class="animate__animated animate__fadeInDown" style="font-family: Lato; font-weight: 700; color: rgb(0, 0, 0); font-size: 4rem;">
+                    Colour makes all the difference
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Lets paint with colour plus
+                  </p>
+                  <br>
+                  <a   href="#about" class="btn btn-primary btn-xl js-scroll-trigger"
+                  >Find Out More</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url('img/bandimg-01.jpg');
+               background-size: cover;"
+              
+            >
+              <div class="carousel-container">
+                <div class="carousel-content container">
+                  <h2 class="animate__animated animate__fadeInDown" style="color: black; font-family: poppins; font-size: 4rem; ">
+                    Experience the difference
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp" style="color: rgb(73, 73, 73);">
+                    Get fresh with us
+                  
+                  </p>
+                  <a
+                    href="#about"
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a
+                  >
+                  
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon icofont-rounded-left"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon icofont-rounded-right"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-      <div class="overlay"></div>
-    </header>
+    </section>
+    <!-- End Hero -->
+
+
 
     <!-- About -->
     <section class="content-section bg-light" id="about">
@@ -760,7 +841,7 @@
 </style>
 <!-- End Our Team Section -->
      <!-- Map -->
-     <div id="contact">
+     <div id="contact" sty>
       <!-- ======= Contact Us Section ======= -->
     <h2 class="section-header"
     style="   text-align: center;
