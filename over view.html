@@ -1,99 +1,162 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>website</title>
     <link rel="stylesheet" href="second" />
-</head>
+  </head>
 
-<body topmargin="20">
-    <nav class="navbar navbar-light bg-light" style="box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);">
+  <body topmargin="20">
+    <nav
+      class="navbar navbar-light bg-light"
+      style="box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);"
+    >
+      <a class="navbar-brand" href="#">
+        Welcome...
+      </a>
+      <button class="btn"><i class="fa fa-home"></i></button>
 
-        <a class="navbar-brand" href="#">
-            Welcome...
-        </a>
-        <button class="btn"><i class="fa fa-home"></i></button>
-
-        <script>
-            /* When the user clicks on the button, 
+      <script>
+        /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
 
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function (event) {
-                if (!event.target.matches('.dropbtn')) {
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                        }
-                    }
-                }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+          if (!event.target.matches(".dropbtn")) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains("show")) {
+                openDropdown.classList.remove("show");
+              }
             }
-        </script>
-        <button type="button" class="btn btn-light btn">
-            <i class="fa fa-search"></i>
-        </button>
-        <button type="button" class="btn btn-light">
-            <ul class="w3-ul">
-                <li class="w3-large"><i class="fa fa-home"></i> Home</li>
-
-            </ul>
-        </button>
+          }
+        };
+      </script>
+      <button type="button" class="btn btn-light btn">
+        <i class="fa fa-search"></i>
+      </button>
+      <button type="button" class="btn btn-light">
+        <ul class="w3-ul">
+          <li class="w3-large"><i class="fa fa-home"></i> Home</li>
+        </ul>
+      </button>
     </nav>
-    <div class="topbar">
-        <p>
-            The Government Engineering College, Idukki (GECI) is located in the beautiful high range district of Kerala
-            known
-            for its mountainous hills and dense forests. The location of the institute in the idyllic environment makes
-            it
-            perfect for academic pursuit.
+    <div class="page" id="page1">
+        <ul class="gallery" id="galleryList">
+           <li class="img">
+             <img src="https://source.unsplash.com/150x150/?tech" alt="Image 002" />
+          </li>
+          <li class="img">
+             <img src="https://source.unsplash.com/150x150/?dog" alt="Image 001" />
+          </li>
+          <li class="img">
+             <img src="https://source.unsplash.com/150x150/?lamborghini" alt="Image 001" />
+          </li>
+          <li class="img">
+             <img src="https://source.unsplash.com/150x150/?bird" alt="Image 001" />
+          </li>
+          <li class="img">
+             <img src="https://source.unsplash.com/150x150/?cars" alt="Image 001" />
+          </li>
+           <li class="img">
+             <img src="https://source.unsplash.com/150x150/?landscape" alt="Image 001" />
+          </li>
+           <li class="img">
+             <img src="https://source.unsplash.com/150x150/?water" alt="Image 001" />
+          </li>
+           <li class="img">
+             <img src="https://source.unsplash.com/150x150/?art" alt="Image 001" />
+          </li>
+              <li class="img">
+             <img src="https://source.unsplash.com/150x150/?abstract" alt="Image 001" />
+          </li>
+              <li class="img">
+             <img src="https://source.unsplash.com/150x150/?design" alt="Image 001" />
+          </li>
+              <li class="img">
+             <img src="https://source.unsplash.com/150x150/?computer" alt="Image 001" />
+          </li>
+        </ul>
+      </div>
+    <!-- 
+    <div class="page" id="page2">
+    </div> -->
+       
+        <style>
+          body {
+  background: #f5f5f5;
+}
 
-            The education system followed in the college enables the students to achieve academic success as well as
-            develop
-            interpersonal skills. Each student is assigned to a staff advisor from the concerned department who guides
-            the
-            students in curricular and extracurricular activities during the period of study in the college. The college
-            has a
-            very active student’s union whose principal objective is to develop leadership qualities, integrity and
-            inculcate
-            the spirit of service among the students. The members are responsible for organising sports, arts, cultural
-            and
-            edutainment events.
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: inherit;
+  margin: 0 auto;
+  padding: 0;
+  overflow-y: scroll;
+  justify-content: space-between;
+}
+.gallery .img {
+  margin: 5px;
+}
+.gallery .img, .gallery .img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+.page#page2 {
+  opacity: 0;
+  transition: transform 2s;
+  transform: translate;
+}
+.animate-center {
+  animation-name: centerEl;
+}
+@keyframes centerEl {
+  0% {
+    transform: translatey(0) translatex(0);
+  }
+  100% {
+    transform: translatey(50px) translatex(75px);
+  }
+}
 
-            The college is academically structured into seven departments
-
-            Electrical and Electronics Engineering
-            Electronics and Communication Engineering
-            Computer Science and Engineering
-            Information Technology
-            Mechanical Engineering
-            General Engineering Department
-            Department of Mathematics and Basic Sciences
-            The college has a very active career guidance cell that frequently organizes various soft skill development
-            programmes and workshops to motivate students to perform better. The placement cell aims at providing
-            placement
-            opportunities for the students. A counselling cell has also been set up to help and guide the students. The
-            college has well-equipped lab and a well-stocked library with subscription to national and international
-            journals
-            and periodicals. GECI is one of the leading institues that assumes a pivotal role in shaping future
-            engineers
-            through quality education.
-        </p>
-
-    </div>
-    <img src="" style="margin: auto;" />
-</body>
-
+        </style>
+       <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+          
+          <div class="credits" style="text-align: center; font-size: 18px; font-weight: lighter; padding-top: 1rem; color: rgb(133, 133, 133);">
+          ColourPlus </div>
+        </div>
+        <div class="credits" style="text-align: center; font-size: 18px; font-weight: lighter; color: rgb(133, 133, 133);">
+            www.colourplus.online</div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </html>
+  </body>
 </html>
