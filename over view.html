@@ -1,278 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Colourplus</title>
-    <link href="assets/img/favicon.png" rel="icon" />
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>website</title>
+    <link rel="stylesheet" href="second" />
+</head>
 
-    <!-- Custom Fonts -->
-    <link
-      href="vendor/fontawesome-free/css/all.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="vendor/simple-line-icons/css/simple-line-icons.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
+<body topmargin="20">
+    <nav class="navbar navbar-light bg-light" style="box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);">
 
-  <body id="page-top">
-    <nav class="fixed-nav-bar">
-        <a class="brand" href="index.html">
-            <i class="fa fa-arrow-left" style="font-size:33px;color:rgb(255, 255, 255)" style="margin-top: 1rem;"></i>
+        <a class="navbar-brand" href="#">
+            Welcome...
         </a>
-        
-      </nav>
-<style>
+        <button class="btn"><i class="fa fa-home"></i></button>
 
-a {
-  text-decoration: none;
-  color: gray;
-}
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-/*   border: 1px solid red; */
-}
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+        <button type="button" class="btn btn-light btn">
+            <i class="fa fa-search"></i>
+        </button>
+        <button type="button" class="btn btn-light">
+            <ul class="w3-ul">
+                <li class="w3-large"><i class="fa fa-home"></i> Home</li>
 
-.fixed-nav-bar {
-    padding-top: 0.5rem;
-  position: fixed;
-  align-items: flex-end;
-  justify-content: flex-end;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background: 
-linear-gradient(-50deg,#20aadb,#23e0b3);background-size: 320% 200%;-webkit-animation: 
-Gradient 15s ease infinite;-moz-animation: Gradient 15s ease infinite;animation: 
-Gradient 15s ease infinite;
-  box-shadow: 0px 0px 10px gray;
-  display: flex;
-  line-height: 50px;
-}
+            </ul>
+        </button>
+    </nav>
+    <div class="topbar">
+        <p>
+            The Government Engineering College, Idukki (GECI) is located in the beautiful high range district of Kerala
+            known
+            for its mountainous hills and dense forests. The location of the institute in the idyllic environment makes
+            it
+            perfect for academic pursuit.
 
-nav img {
-  height: 50px;
-}
+            The education system followed in the college enables the students to achieve academic success as well as
+            develop
+            interpersonal skills. Each student is assigned to a staff advisor from the concerned department who guides
+            the
+            students in curricular and extracurricular activities during the period of study in the college. The college
+            has a
+            very active student’s union whose principal objective is to develop leadership qualities, integrity and
+            inculcate
+            the spirit of service among the students. The members are responsible for organising sports, arts, cultural
+            and
+            edutainment events.
 
-nav .brand {
-  flex: 1;
-  align-self: flex-start;
-  height: 50px;
-  margin-left: 10px;
-}
+            The college is academically structured into seven departments
 
-nav .link {
-  flex: 1;
-  max-width: max-content;
-  margin-right: 40px;
-}
+            Electrical and Electronics Engineering
+            Electronics and Communication Engineering
+            Computer Science and Engineering
+            Information Technology
+            Mechanical Engineering
+            General Engineering Department
+            Department of Mathematics and Basic Sciences
+            The college has a very active career guidance cell that frequently organizes various soft skill development
+            programmes and workshops to motivate students to perform better. The placement cell aims at providing
+            placement
+            opportunities for the students. A counselling cell has also been set up to help and guide the students. The
+            college has well-equipped lab and a well-stocked library with subscription to national and international
+            journals
+            and periodicals. GECI is one of the leading institues that assumes a pivotal role in shaping future
+            engineers
+            through quality education.
+        </p>
 
-.page-container {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.page-container > .post {
-  flex: 1;
-  max-width: 500px;
-}
-
-.post > .link {
-  text-align: center;
-  font-family: courier;
-  font-size: 2.5em;
-  font-weight: lighter;
-  margin: 50px 0px;
-}
-
-a:hover {
-  color: black;
-}
-
-
-
-</style>      
-    
-    
-
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-      <div class="container">
-        <div class="content-section-heading text-center">
-          <h2 class="text-secondary mb-0">Portfolio</h2>
-         <br><br>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-              
-              <img class="img-fluid" src="img/house0.jpg" alt="" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-              
-              <img class="img-fluid" src="img/house2.jpg" alt="" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-              
-              <img class="img-fluid" src="img/house3.jpg" alt="" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-              
-              <img class="img-fluid" src="img/house5.jpg" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div style="display: flex;
-    justify-content: center; margin-bottom: 70px;"> 
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="over view.html"
-          >Find Out More</a
-        >
     </div>
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
-       
-      </div>
-    </section>
+    <img src="" style="margin: auto;" />
+</body>
 
-
-
-     <div id="contact">
-      <!-- ======= Contact Us Section ======= -->
-    <h2 class="section-header"
-    style="   text-align: center;
-    margin: 0 auto;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    font: 300 60px 'Oswald', sans-serif;
-    letter-spacing: 6px;
-    color: rgb(2, 2, 2);
-    margin-bottom: 25px;
-    font-family: Roboto Condensed ;
-    font-size: 30px;
-  "
-    
-    >CONTACT US</h2>
-    <hr>
-    <div class="direct-contact-container"  style="display: flex; justify-content: center; margin-left: auto; margin-right: auto;">
-    <ul class="contact-list">
-          <li class="list-item"><i class="fa fa-map-marker fa-2x" style="justify-content: center; display: flex;"><span class="contact-text place"><p style="text-align: unset;"> Kannur road , Kotheri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PO Mattannur , Kannur &nbsp;&nbsp; PIN 670702</p></span></i></li>
-         <br>
-          <li class="list-item"><i class="fa fa-phone fa-2x" style="justify-content: center; display: flex; "><span class="contact-text phone"><a href="tel:9446957816" title="Give me a call"> 9446957816&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span></i></li>
-          <li class="list-item"><i class="fa fa-phone fa-2x" style="justify-content: center; display: flex; color: rgb(255, 255, 255);" ><span class="contact-text phone"><a href="tel:9446957816" title="Give me a call"> 8589915816&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span></i></li>
-          <li class="list-item"><i class="fa fa-phone fa-2x" style="justify-content: center; display: flex;  color: rgb(255, 255, 255);"><span class="contact-text phone"><a href="tel:9446957816" title="Give me a call"> 8281122929&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span></i></li>
-          <br>
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">colourplusmtr@gmail.com</a></span></i></li>
-          
-        </ul>
-      </div>
-      <hr>
-        <style>
-        /* Location, Phone, Email Section */
-.contact-list {
-  list-style-type: none;
-  margin-left: -30px;
-  padding-right: 20px;
-}
-
-.list-item {
-  line-height: 4;
-  color: rgb(2, 2, 2);
-}
-
-.contact-text {
-  font: 300 18px 'Lato', sans-serif;
-  letter-spacing: 1.9px;
-  color: rgb(29, 29, 29);
-}
-
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
-}
-
-.gmail {
-  margin-left: 53px;
-}
-
-.contact-text a {
-  color: rgb(39, 39, 39);
-  text-decoration: none;
-  transition-duration: 0.2s;
-}
-
-.contact-text a:hover {
-  color: rgb(255, 0, 0);
-  text-decoration: none;
-}
-.direct-contact-container {
-   
-    margin-top: 60px;
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-     margin-bottom: 70px;
-  } 
-</style>
-
-    <!-- End Contact Us Section -->
-    
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
-    
-  </body>
 </html>
