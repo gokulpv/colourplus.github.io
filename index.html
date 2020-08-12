@@ -432,7 +432,7 @@
         </h4>
         <a
           class="btn btn-primary btn-xl"
-          href="new1.html"
+          href=""
           >What's new</a
         >
       </div>
@@ -580,12 +580,52 @@
 
 
 </style>
-<section class="content-section bg-primary text-white">
+<section class="content-section bg-primary text-white" id="tools">
+  
   <div class="container text-center">
-    <h2 class="mb-4">Order Now</h2>
-    <a href="new.html" title="Give me a call"class="btn btn-xl btn-light mr-4">Call now</a>
-   
+    <h2 class="mb-4" style="font-size:3.5rem; font-family: barlow;">Tools for rentals</h2>
+    
   </div>
+<div class="w3-container"style="margin-top: 2rem;">
+  
+
+
+<div class="w3-content w3-section" style="max-width:500px; margin-bottom: 2rem;">
+  <img class="mySlides w3-animate-top" src="img/putty sprayer.jpg" style="width:100% ;">
+  <img class="mySlides w3-animate-bottom" src="img/paint sprayer.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="img/Air compressor.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/cleaner.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/putty sander.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="img/sander.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/vaccum cleaner.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="img/scuffolding.jpg" style="width:100%">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+
+<div style="display: flex; justify-content: center; color: white; font-size: 3rem; font-weight: lighter; margin-top: 4rem;">
+Order now
+</div>
+
+  <div  style=" margin-right: auto; margin-left: auto; margin-top: 2rem;" >
+    <p  class="contact-text phone" style="text-align: center; font-family: Font Awesome 5 Free; font-size: 20px; color: rgb(255, 255, 255); font-weight: lighter;"><a href="tel:9446957816" title="Give me a call"><i class="fa fa-phone fa-2x" ></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></a>
+   </div>
 </section>
 
 <!-- End Our Team Section -->
@@ -624,7 +664,7 @@
    </div>
             <div style=" display:flex; justify-content: center; padding-top: 2rem;" >
              <i class="fa fa-phone fa-2x"></i>
-              <i class="&#xe0c8;"></i>
+        
              </div>
              
              <div  style=" margin-right: auto; margin-left: auto;  margin-top: 3rem; " >

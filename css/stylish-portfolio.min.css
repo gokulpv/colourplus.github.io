@@ -579,3 +579,11 @@ a:hover {
   width: 320px;
   height: 180px;
 }
+.mySlides {
+  display: none;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
