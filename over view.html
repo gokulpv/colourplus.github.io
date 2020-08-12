@@ -19,144 +19,143 @@
     />
 
     <title>website</title>
-    <link rel="stylesheet" href="second" />
+    <link rel="stylesheet" href="css/over view.css" />
   </head>
 
   <body topmargin="20">
-    <nav
-      class="navbar navbar-light bg-light"
-      style="box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);"
-    >
-      <a class="navbar-brand" href="#">
-        Welcome...
-      </a>
-      <button class="btn"><i class="fa fa-home"></i></button>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans"
+    />
 
-      <script>
-        /* When the user clicks on the button, 
-            toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function (event) {
-          if (!event.target.matches(".dropbtn")) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains("show")) {
-                openDropdown.classList.remove("show");
-              }
-            }
-          }
-        };
-      </script>
-      <button type="button" class="btn btn-light btn">
-        <i class="fa fa-search"></i>
-      </button>
-      <button type="button" class="btn btn-light">
-        <ul class="w3-ul">
-          <li class="w3-large"><i class="fa fa-home"></i> Home</li>
-        </ul>
-      </button>
+    <nav id="main">
+      <ul>
+        <li class="logo">
+          <a href="index.html">Home</a>
+        </li>
+        <li><a href="index.html"
+          class="logok"><span></span><img src="img/logocp.png"  style="width: 100px;"/></span
+       ></a></li>
+      </ul>
     </nav>
-    <div class="page" id="page1">
-        <ul class="gallery" id="galleryList">
-           <li class="img">
-             <img src="https://source.unsplash.com/150x150/?tech" alt="Image 002" />
-          </li>
-          <li class="img">
-             <img src="https://source.unsplash.com/150x150/?dog" alt="Image 001" />
-          </li>
-          <li class="img">
-             <img src="https://source.unsplash.com/150x150/?lamborghini" alt="Image 001" />
-          </li>
-          <li class="img">
-             <img src="https://source.unsplash.com/150x150/?bird" alt="Image 001" />
-          </li>
-          <li class="img">
-             <img src="https://source.unsplash.com/150x150/?cars" alt="Image 001" />
-          </li>
-           <li class="img">
-             <img src="https://source.unsplash.com/150x150/?landscape" alt="Image 001" />
-          </li>
-           <li class="img">
-             <img src="https://source.unsplash.com/150x150/?water" alt="Image 001" />
-          </li>
-           <li class="img">
-             <img src="https://source.unsplash.com/150x150/?art" alt="Image 001" />
-          </li>
-              <li class="img">
-             <img src="https://source.unsplash.com/150x150/?abstract" alt="Image 001" />
-          </li>
-              <li class="img">
-             <img src="https://source.unsplash.com/150x150/?design" alt="Image 001" />
-          </li>
-              <li class="img">
-             <img src="https://source.unsplash.com/150x150/?computer" alt="Image 001" />
-          </li>
-        </ul>
-      </div>
-    <!-- 
-    <div class="page" id="page2">
-    </div> -->
-       
-        <style>
-          body {
-  background: #f5f5f5;
-}
 
-.gallery {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  width: auto;
-  height: inherit;
-  margin: 0 auto;
-  padding: 0;
-  overflow-y: scroll;
-  justify-content: space-between;
-}
-.gallery .img {
-  margin: 5px;
-}
-.gallery .img, .gallery .img img {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-}
-.page#page2 {
-  opacity: 0;
-  transition: transform 2s;
-  transform: translate;
-}
-.animate-center {
-  animation-name: centerEl;
-}
-@keyframes centerEl {
-  0% {
-    transform: translatey(0) translatex(0);
-  }
-  100% {
-    transform: translatey(50px) translatex(75px);
-  }
-}
+    <header>
+      <h1>Our Portfolio<span>.</span></h1>
+    </header>
 
-        </style>
-       <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+     
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house0.jpg">
+              <img class="img-fluid" src="img/house0.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house2.jpg">
+              <img class="img-fluid" src="img/house2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house3.jpg">
+              <img class="img-fluid" src="img/house3.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house5.jpg">
+              <img class="img-fluid" src="img/house5.jpg" alt="" />
+            </a>
+          </div>
           
-          <div class="credits" style="text-align: center; font-size: 18px; font-weight: lighter; padding-top: 1rem; color: rgb(133, 133, 133);">
-          ColourPlus </div>
+          
+          
+          
+          
+          
+          
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house0.jpg">
+              <img class="img-fluid" src="img/house0.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house2.jpg">
+              <img class="img-fluid" src="img/house2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house3.jpg">
+              <img class="img-fluid" src="img/house3.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/house5.jpg">
+              <img class="img-fluid" src="img/house5.jpg" alt="" />
+            </a>
+          </div>
         </div>
-        <div class="credits" style="text-align: center; font-size: 18px; font-weight: lighter; color: rgb(133, 133, 133);">
-            www.colourplus.online</div>
-        </div>
-      </footer>
-      <!-- End Footer -->
-    </html>
+      </div>
+    </section>
+    <div style="display: flex; justify-content: center; margin-bottom: 70px;">
+      >
+    </div>
+
+    <script>
+      const nav = document.querySelector("#main");
+      const topOfNav = nav.offsetTop;
+
+      function fixNav() {
+        if (window.scrollY >= !topOfNav) {
+          document.body.style.paddingTop = nav.offsetHeight + "px";
+          document.body.classList.add("fixed-nav");
+        } else {
+          document.body.style.paddingTop = 0;
+          document.body.classList.remove("fixed-nav");
+        }
+      }
+
+      window.addEventListener("scroll", fixNav);
+
+      function debounce(func, wait = 20, immediate = true) {
+        var timeout;
+
+        return function () {
+          var context = this,
+            args = arguments;
+
+          var later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+          };
+
+          var callNow = immediate && !timeout;
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+
+          if (callNow) func.apply(context, args);
+        };
+      }
+
+      const sliderImages = document.querySelectorAll(".slide-in");
+
+      function checkSlide(e) {
+        sliderImages.forEach((sliderImage) => {
+          const slideInAt =
+            window.scrollY + window.innerHeight - sliderImage.height / 2;
+          const imageBottom = sliderImage.offsetTop + sliderImage.height;
+          const isHalfShown = slideInAt > sliderImage.offsetTop;
+          const isNotScrolledPast = window.scrollY < imageBottom;
+
+          if (isHalfShown && isNotScrolledPast) {
+            sliderImage.classList.add("active");
+          } else {
+            sliderImage.classList.remove("active");
+          }
+        });
+      }
+
+      window.addEventListener("scroll", debounce(checkSlide));
+    </script>
   </body>
 </html>

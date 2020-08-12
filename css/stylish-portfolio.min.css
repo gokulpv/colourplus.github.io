@@ -355,6 +355,9 @@ a:hover {
   color: rgb(39, 39, 39) !important;
 }
 
+#more {
+  background-color: #155d74 !important;
+}
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
@@ -558,4 +561,21 @@ a:hover {
   padding: 0 0 20px 0;
   font-size: 14px;
   opacity: 80%;
+}
+.carousel {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+}
+.carousel-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -160px;
+  width: 320px;
+  height: 180px;
 }
